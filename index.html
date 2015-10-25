@@ -12,7 +12,7 @@
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-        <link rel="stylesheet" href="css/normalize.css">
+        <!--<link rel="stylesheet" href="css/normalize.css">-->
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
@@ -27,6 +27,7 @@
             <div class="container text-right">
                 <span>注册</span>
                 <span>登录</span>
+                <input type="text" id="srch1" onblur="if(this.value=='') this.value='搜索'; this.style.color='#999'; return true;" onfocus="if(this.value=='搜索') this.value='';this.style.color='#333'; return true;" value="搜索" class="search" name="">
             </div>
         </div>
         <div class="container">
@@ -36,9 +37,9 @@
                     <li><a data-value="classic" href="index.html"><i class="icon-blank"></i> 首页</a></li>
                     <li><a data-value="cerulean" href="html/it123.html" target="container"><i class="icon-blank"></i> IT123</a></li>
                     <li><a data-value="cerulean" href="html/soft.html" target="container"><i class="icon-blank"></i> 软件</a></li>
+                    <li><a data-value="journal" href="html/it.html" target="container"><i class="icon-blank"></i> 互联网</a></li>
                     <li><a data-value="cyborg" href="#"><i class="icon-blank"></i> 下载</a></li>
-                    <li><a data-value="redy" href="#"><i class="icon-blank"></i> 相册</a></li>
-                    <li><a data-value="journal" href="#"><i class="icon-blank"></i> 公司</a></li>
+
                     <li><a data-value="simplex" href="#"><i class="icon-blank"></i> 创业</a></li>
                     <li><a data-value="slate" href="#"><i class="icon-blank"></i> 开源</a></li>
                     <li><a data-value="spacelab" href="#"><i class="icon-blank"></i> 技术</a></li>

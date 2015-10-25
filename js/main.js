@@ -7,4 +7,14 @@ $(document).ready(function(){
         }, 'html');
         event.preventDefault();
     });
+
+
 });
+
+function loadContent(htmlUrl){
+    $.get(htmlUrl, {}, function(data){
+        $('#container').html(data);
+    }, 'html');
+}
+
+loadContent("html/it.html");

@@ -19,10 +19,24 @@ textarea {
 }
 
 body {
-    font-size: 1em;
+    /*font-size: 1em;*/
+    /*font-size: 100%;*/
+    font-size: 12px;
     line-height: 1.4;
 }
+.header-bar{position:relative;z-index:150;height:36px;background:#fafafa;border-bottom:1px solid #dfdfdf}
 
+.search {
+    background: url("../img/ico_search.gif") no-repeat scroll right center transparent;
+    border: 1px solid #ccc;
+    color: #999;
+    height: 24px;
+    line-height: 14px;
+    margin: 4px 4px 2px 5px;
+    padding: 2px 3px;
+    vertical-align: middle;
+    width: 170px;
+}
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection declarations have to be separate.
@@ -52,6 +66,7 @@ hr {
     padding: 0;
 }
 
+
 /*
  * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
  */
@@ -60,6 +75,15 @@ img {
     vertical-align: middle;
 }
 
+/*ul {*/
+    /*list-style: outside none none;*/
+    /*margin-left:0px;*/
+/*}*/
+
+/*li {*/
+    /*margin-left:0px;*/
+    /*float: left;*/
+/*}*/
 /*
  * Remove default fieldset styles.
  */
@@ -208,6 +232,39 @@ textarea {
 
 .clearfix {
     *zoom: 1;
+}
+
+.box {
+    border: 1px solid #000000;
+}
+
+.flow {
+    margin-bottom: 0;
+}
+.flow h4 {
+    font-size: 12px;
+}
+.flow h3 {
+    font: bold 18px/28px "Microsoft YaHei";
+    margin-bottom: 5px;
+}
+.flow li .summary {
+    color: #666;
+    margin-bottom: 5px;
+}
+.flow ul.develop li {
+    border-bottom: 1px dotted #ddd;
+    font-size: 14px;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+}
+.flow ul.develop li:last-child {
+    border: medium none;
+    padding: 0;
+}
+
+#container {
+    min-height: 600px;
 }
 
 /* ==========================================================================
