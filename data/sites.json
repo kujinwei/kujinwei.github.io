@@ -1,0 +1,10 @@
+{
+  "site":[
+    {"name": "sina",
+      "url": "http://www.sina.com.cn"},
+    {"name": "zhihu",
+      "url": "http://www.zhihu.com"},
+    {"name": "QQ",
+      "url": "http://www.qq.com"}
+  ]
+}

@@ -1,2 +1,2 @@
 # kujinwei.github.io
-My blog
+All useful sites and resources link for a programmer.
